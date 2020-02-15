@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <Section className="mt-20 text-center">
       <h1 className="text-3xl text-white">There's nothing here.</h1>
-      <p className="text-6xl text-white">🤷</p>
+      <p className="text-6xl text-white"><span role="img" aria-label="shrug">🤷</span></p>
     </Section>
   </Layout>
 )
