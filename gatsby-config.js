@@ -1,12 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: `Rui Caridade`,
-    description: ``,
+    description: `Backend Developer working in the mobile hyper-casual industry.`,
     author: `Rui Caridade`,
     lang: "en",
+    linkedIn: "https://www.linkedin.com/in/ruidanielcaridade/",
+    github: "https://github.com/ruicaridade",
+    twitter: "https://twitter.com/ruidgc",
+    email: "ruidanielcaridade@gmail.com",
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,8 +27,9 @@ module.exports = {
         short_name: `ruicaridade`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/images/peanut.jpg`,
+        icon: `src/images/peanut.png`,
       },
     },
+    `gatsby-plugin-postcss`,
   ],
 }

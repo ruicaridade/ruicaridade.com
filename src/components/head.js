@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 
-function SEO () {
+const Head = () => {
   const { site } = useStaticQuery(
     graphql`
         query {
@@ -63,9 +63,9 @@ function SEO () {
         },
       ]}
     >
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
+      {/*<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>*/}
     </Helmet>
   )
 }
 
-export default SEO
+export default Head
