@@ -49,7 +49,9 @@ const Navbar = () => {
       <div className="flex-1 flex flex-col lg:flex-row items-center justify-center lg:justify-start">
         <Img className="rounded-full h-16 w-16 bg-white mr-4" fixed={file.childImageSharp.fixed}/>
         <div className="leading-tight text-center lg:text-left">
-          <h1 className="text-2xl text-white font-semibold">{site.siteMetadata.author}</h1>
+          <h1 className="text-2xl text-white font-semibold">
+            <a href="/">{site.siteMetadata.author}</a>
+          </h1>
           <h2 className="text-gray-600">Portuguese. Living in the UK.</h2>
         </div>
       </div>
