@@ -31,8 +31,7 @@ const freelance = [
     startDate: new Date(2020, 4),
     endDate: new Date(2020, 5),
     achievements: [
-      "Custom built to pull inventory from an internal service
-       and allow folks to manage everything from a Strapi backend",
+      "Custom built to pull inventory from an internal service and allow folks to manage everything from a Strapi backend",
     ],
     technologies: ["React", "Gatsby", "Strapi", "Netlify", "PostgreSQL"],
   },
