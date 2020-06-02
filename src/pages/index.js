@@ -25,7 +25,7 @@ const jobs = [
 const freelance = [
   {
     title: "Stand Carvalho",
-    employer: "www.standcarvalho.pt",
+    employer: "standcarvalho.pt",
     country: "🇵🇹",
     website: "https://standcarvalho.pt",
     startDate: new Date(2020, 4),
