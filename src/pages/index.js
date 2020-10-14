@@ -13,11 +13,7 @@ const jobs = [
     website: "https://www.kwalee.com/",
     startDate: new Date(2018, 2),
     endDate: "Present",
-    achievements: [
-      "Actively develop and maintain an internal business intelligence tool",
-      "Serving over 3 million players worldwide",
-      "Shipped over 10 games both on Android and iOS",
-    ],
+    achievements: [],
     technologies: ["Python", "Flask", "ElasticSearch", "Couchbase", "AWS"],
   },
 ];
@@ -30,9 +26,7 @@ const freelance = [
     website: "https://standcarvalho.pt",
     startDate: new Date(2020, 4),
     endDate: new Date(2020, 5),
-    achievements: [
-      "Custom built to pull inventory from an internal service and allow folks to manage everything from a Strapi backend",
-    ],
+    achievements: [],
     technologies: ["React", "Gatsby", "Strapi", "Netlify", "PostgreSQL"],
   },
 ];
