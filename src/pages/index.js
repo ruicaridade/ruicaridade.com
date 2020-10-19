@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 
 const jobs = [
   {
-    title: "Junior Server Programmer",
+    title: "Server Programmer",
     employer: "Kwalee",
     country: "🇬🇧",
     website: "https://www.kwalee.com/",
