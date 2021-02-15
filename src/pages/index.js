@@ -20,14 +20,13 @@ const jobs = [
 
 const freelance = [
   {
-    title: "Stand Carvalho",
-    employer: "standcarvalho.pt",
+    title: "Full Stack Developer",
+    employer: "Smiling Penguin",
     country: "🇵🇹",
-    website: "https://standcarvalho.pt",
     startDate: new Date(2020, 4),
     endDate: new Date(2020, 5),
     achievements: [],
-    technologies: ["React", "Gatsby", "Strapi", "Netlify", "PostgreSQL"],
+    technologies: ["Django", "React", "Gatsby", "Strapi", "Netlify", "PostgreSQL"],
   },
 ];
 
